@@ -8,15 +8,41 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>数据结构 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
+  <meta name="description" content="数据结构">
+<meta property="og:type" content="article">
 <meta property="og:title" content="数据结构">
 <meta property="og:url" content="http://example.com/2022/10/18/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="数据结构">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018223937152.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224124637.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224202988.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224228681.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224303307.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224402834.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018220415382.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018220828462.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221133480.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221235613.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221334517.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221428169.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221511304.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018205917286.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018201656544.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202225776.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202245119.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202620760.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202138731.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018222056260.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018204849769.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018222817450.png">
+<meta property="og:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018222825920.png">
 <meta property="article:published_time" content="2022-10-18T14:46:48.000Z">
-<meta property="article:modified_time" content="2022-10-18T14:46:48.694Z">
+<meta property="article:modified_time" content="2022-10-18T14:48:41.590Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018223937152.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -162,7 +188,110 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1><span id="more"></span>
+
+<h2 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h2><h2 id="第二章-线性表"><a href="#第二章-线性表" class="headerlink" title="第二章 线性表"></a>第二章 线性表</h2><h2 id="第三章-栈和队列"><a href="#第三章-栈和队列" class="headerlink" title="第三章 栈和队列"></a>第三章 栈和队列</h2><h2 id="第四章-串、数组和广义表"><a href="#第四章-串、数组和广义表" class="headerlink" title="第四章 串、数组和广义表"></a>第四章 串、数组和广义表</h2><h2 id="第五章-树和二叉树"><a href="#第五章-树和二叉树" class="headerlink" title="第五章 树和二叉树"></a>第五章 树和二叉树</h2><p><strong>二叉树性质</strong></p>
+<ul>
+<li><p>在二叉树的第i层上至多有2^i-1^个结点</p>
+</li>
+<li><p>第i层上至少有  1 个结点</p>
+</li>
+<li><p>深度为k的二叉树至多有2^K^-1个结点</p>
+</li>
+<li><p>深度为k的二叉树至少有 k 个结点</p>
+</li>
+<li><p>对于任何一棵二叉树T，如果其叶子结点数为n0，度为2的结点数为n2，则n0&#x3D;n2+1</p>
+</li>
+</ul>
+<h3 id="完全二叉树"><a href="#完全二叉树" class="headerlink" title="完全二叉树"></a>完全二叉树</h3><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018223937152.png" alt="image-20221018223937152"></p>
+<h3 id="树与二叉树之间的转换"><a href="#树与二叉树之间的转换" class="headerlink" title="树与二叉树之间的转换"></a>树与二叉树之间的转换</h3><h4 id="树转换为二叉树"><a href="#树转换为二叉树" class="headerlink" title="树转换为二叉树"></a>树转换为二叉树</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224124637.png" alt="image-20221018224124637"></p>
+<h4 id="将二叉树转换成树"><a href="#将二叉树转换成树" class="headerlink" title="将二叉树转换成树"></a>将二叉树转换成树</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224202988.png" alt="image-20221018224202988"></p>
+<h4 id="森林转为二叉树"><a href="#森林转为二叉树" class="headerlink" title="森林转为二叉树"></a>森林转为二叉树</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224228681.png" alt="image-20221018224228681"></p>
+<h4 id="二叉树转换为森林"><a href="#二叉树转换为森林" class="headerlink" title="二叉树转换为森林"></a>二叉树转换为森林</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224303307.png" alt="image-20221018224303307"></p>
+<h3 id="哈夫曼树-哈夫曼编码"><a href="#哈夫曼树-哈夫曼编码" class="headerlink" title="哈夫曼树 哈夫曼编码"></a>哈夫曼树 哈夫曼编码</h3><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018224402834.png" alt="image-20221018224402834"></p>
+<h2 id="第六章-图"><a href="#第六章-图" class="headerlink" title="第六章 图"></a>第六章 图</h2><h3 id="最小生成树"><a href="#最小生成树" class="headerlink" title="最小生成树"></a>最小生成树</h3><h4 id="Kruskal（克鲁斯卡尔）算法（画圈）"><a href="#Kruskal（克鲁斯卡尔）算法（画圈）" class="headerlink" title="Kruskal（克鲁斯卡尔）算法（画圈）"></a>Kruskal（克鲁斯卡尔）算法（画圈）</h4><ul>
+<li>归并边，适于稀疏网</li>
+<li>时间复杂度：O(eloge)</li>
+<li>存储表示:   邻接表</li>
+</ul>
+<h4 id="Prim（普里姆）算法"><a href="#Prim（普里姆）算法" class="headerlink" title="Prim（普里姆）算法"></a>Prim（普里姆）算法</h4><ul>
+<li>归并顶点，与边数无关，适于稠密网</li>
+<li>时间复杂度：O(n2)</li>
+<li>存储表示:   邻接矩阵</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>算法名</th>
+<th align="left">普里姆算法</th>
+<th>克鲁斯卡尔算法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>时间复杂度</strong></td>
+<td align="left"><strong>O(n^2^)</strong></td>
+<td><strong>O(eloge)</strong></td>
+</tr>
+<tr>
+<td><strong>适应范围</strong></td>
+<td align="left"><strong>稠密图</strong></td>
+<td><strong>稀疏图</strong></td>
+</tr>
+</tbody></table>
+<h3 id="最短路径"><a href="#最短路径" class="headerlink" title="最短路径"></a>最短路径</h3><p><strong>Dijkstra算法思想</strong><br>先找出从源点v0到各终点vk的直达路径（v0,vk），即通过一条弧到达的路径。<br>从这些路径中找出一条长度最短的路径（v0,u）,然后对其余各条路径进行适当调整：<br>若在图中存在弧（u,vk），且（v0,u）+（u,vk）&lt;（v0,vk）,则以路径（v0,u,vk）代替（v0,vk）。<br>在调整后的各条路径中，再找长度最短的路径，依此类推</p>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018220415382.png" alt="image-20221018220415382"></p>
+<h3 id="关键路径"><a href="#关键路径" class="headerlink" title="关键路径"></a>关键路径</h3><ul>
+<li>关键路径长度是整个工程所需的最短工期</li>
+</ul>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018220828462.png" alt="image-20221018220828462"></p>
+<h4 id="事件vj的最早发生时间Ve-j"><a href="#事件vj的最早发生时间Ve-j" class="headerlink" title="事件vj的最早发生时间Ve(j)"></a><strong>事件</strong>v<del>j</del>的最早发生时间Ve(j)</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221133480.png" alt="image-20221018221133480"></p>
+<h4 id="事件vi的最早发生时间Vl-i"><a href="#事件vi的最早发生时间Vl-i" class="headerlink" title="事件vi的最早发生时间Vl(i)"></a><strong>事件</strong>v<del>i</del>的最早发生时间Vl(i)</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221235613.png" alt="image-20221018221235613"></p>
+<h4 id="活动as的最早开始时间e-s"><a href="#活动as的最早开始时间e-s" class="headerlink" title="活动as的最早开始时间e(s)"></a><strong>活动</strong>a<del>s</del>的最早开始时间e(s)</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221334517.png" alt="image-20221018221334517"></p>
+<h4 id="活动as的最早开始时间l-s"><a href="#活动as的最早开始时间l-s" class="headerlink" title="活动as的最早开始时间l(s)"></a><strong>活动</strong>a<del>s</del>的最早开始时间l(s)</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221428169.png" alt="image-20221018221428169"></p>
+<p><strong>例题</strong></p>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018221511304.png"></p>
+<h2 id="第七章-查找"><a href="#第七章-查找" class="headerlink" title="第七章 查找"></a>第七章 查找</h2><h3 id="分块查找（索引顺序查找）"><a href="#分块查找（索引顺序查找）" class="headerlink" title="分块查找（索引顺序查找）"></a>分块查找（索引顺序查找）</h3><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018205917286.png" alt="image-20221018205917286"></p>
+<ul>
+<li>当对一个线性表R[60]进行索引顺序查找（分块查找）时，若共分成了10个子表，每个子表有6个表项。假定对索引表和数据子表都采用顺序查找，则查找每一个表项的平均查找长度为( 9 )  。</li>
+</ul>
+<h3 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h3><ul>
+<li>性质：任一结点的平衡因子只能取：-1、0 或 1；如果树中某个结点的平衡因子的绝对值大于1，则这棵二叉树就失去平衡，不再是AVL树</li>
+</ul>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018201656544.png" alt="image-20221018201656544"></p>
+<h4 id="LL型（右旋转）"><a href="#LL型（右旋转）" class="headerlink" title="LL型（右旋转）"></a>LL型（右旋转）</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202225776.png" alt="image-20221018202225776"></p>
+<h4 id="RR型（左旋转）"><a href="#RR型（左旋转）" class="headerlink" title="RR型（左旋转）"></a>RR型（左旋转）</h4><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202245119.png" alt="image-20221018202245119"></p>
+<h4 id="LR型"><a href="#LR型" class="headerlink" title="LR型"></a>LR型</h4><ul>
+<li>先进行一次左旋转变成LL型，再进行一次右旋转</li>
+</ul>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202620760.png" alt="image-20221018202620760"></p>
+<h4 id="RL型"><a href="#RL型" class="headerlink" title="RL型"></a>RL型</h4><ul>
+<li>先进行一次右旋转变成RR型，再进行一次左旋转</li>
+</ul>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018202138731.png" alt="image-20221018202138731"></p>
+<h3 id="散列表"><a href="#散列表" class="headerlink" title="散列表"></a>散列表</h3><p><em><strong>散列函数构造方法：</strong></em></p>
+<ul>
+<li>数字分析法</li>
+<li>平方取中法</li>
+<li>折叠法</li>
+<li>除留余数法</li>
+</ul>
+<h4 id="处理冲突"><a href="#处理冲突" class="headerlink" title="处理冲突"></a>处理冲突</h4><p><em><strong>处理冲突的方法：</strong></em></p>
+<ul>
+<li>开放定址法</li>
+<li>再散列法</li>
+<li>链地址法</li>
+<li>建立一个公共溢出区</li>
+</ul>
+<p><strong>开放定址法：</strong><br>方法：当冲突发生时，形成一个探查序列；沿此序列逐个地址探查，直到找到一个空位置（开放的地址），将发生冲突的记录放到该地址中，即Hi&#x3D;(H(key)+di)MOD m, i&#x3D;1,2,…,k(k &lt;&#x3D;m-1)<br>H(key)—散列函数,m —散列表表长,di —增量序列<br>分类<br>线性探测再散列： di &#x3D;1,2,3,…,m-1<br>二次探测再散列： di &#x3D;1²,-1²,2²,-2²,3²,…,±k²(k&lt;&#x3D;m&#x2F;2)<br>伪随机探测再散列： di &#x3D;伪随机数序列</p>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018222056260.png" alt="image-20221018222056260"></p>
+<p><strong>再散列法：</strong></p>
+<p>方法：构造若干个散列函数，当发生冲突时，计算下一个散列地址，即：Hi&#x3D;RHi(key) i&#x3D;1,2,…,k<br>RHi—不同的散列函数<br>特点：计算时间增加</p>
+<p><em><strong>链地址法</strong>：</em><br>方法：将所有关键字为同义词的记录存储在一个单链表中，并用一维数组存放头指针</p>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018204849769.png" alt="image-20221018204849769"></p>
+<p><strong>建立一个公共溢出区</strong>：<br>除设立散列基本表外，另设立一个溢出向量表。所有关键字和基本表中关键字为同义词的记录，不管它们由散列函数得到的地址是什么，一旦发生冲突，都填入溢出表。</p>
+<h2 id="第八章-排序"><a href="#第八章-排序" class="headerlink" title="第八章 排序"></a>第八章 排序</h2><p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018222817450.png" alt="image-20221018222817450"></p>
+<p><img src="https://dts1080.oss-cn-beijing.aliyuncs.com/image-20221018222825920.png" alt="image-20221018222825920"></p>
+
       
 
       
@@ -284,7 +413,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    目录，不存在的…
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.</span> <span class="toc-text">数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%BB%AA%E8%AE%BA"><span class="toc-number">1.1.</span> <span class="toc-text">第一章 绪论</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E7%BA%BF%E6%80%A7%E8%A1%A8"><span class="toc-number">1.2.</span> <span class="toc-text">第二章 线性表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97"><span class="toc-number">1.3.</span> <span class="toc-text">第三章 栈和队列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E4%B8%B2%E3%80%81%E6%95%B0%E7%BB%84%E5%92%8C%E5%B9%BF%E4%B9%89%E8%A1%A8"><span class="toc-number">1.4.</span> <span class="toc-text">第四章 串、数组和广义表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%94%E7%AB%A0-%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">1.5.</span> <span class="toc-text">第五章 树和二叉树</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">1.5.1.</span> <span class="toc-text">完全二叉树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2"><span class="toc-number">1.5.2.</span> <span class="toc-text">树与二叉树之间的转换</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%91%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">1.5.2.1.</span> <span class="toc-text">树转换为二叉树</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B0%86%E4%BA%8C%E5%8F%89%E6%A0%91%E8%BD%AC%E6%8D%A2%E6%88%90%E6%A0%91"><span class="toc-number">1.5.2.2.</span> <span class="toc-text">将二叉树转换成树</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A3%AE%E6%9E%97%E8%BD%AC%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">1.5.2.3.</span> <span class="toc-text">森林转为二叉树</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91%E8%BD%AC%E6%8D%A2%E4%B8%BA%E6%A3%AE%E6%9E%97"><span class="toc-number">1.5.2.4.</span> <span class="toc-text">二叉树转换为森林</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%88%E5%A4%AB%E6%9B%BC%E6%A0%91-%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81"><span class="toc-number">1.5.3.</span> <span class="toc-text">哈夫曼树 哈夫曼编码</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%85%AD%E7%AB%A0-%E5%9B%BE"><span class="toc-number">1.6.</span> <span class="toc-text">第六章 图</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91"><span class="toc-number">1.6.1.</span> <span class="toc-text">最小生成树</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Kruskal%EF%BC%88%E5%85%8B%E9%B2%81%E6%96%AF%E5%8D%A1%E5%B0%94%EF%BC%89%E7%AE%97%E6%B3%95%EF%BC%88%E7%94%BB%E5%9C%88%EF%BC%89"><span class="toc-number">1.6.1.1.</span> <span class="toc-text">Kruskal（克鲁斯卡尔）算法（画圈）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Prim%EF%BC%88%E6%99%AE%E9%87%8C%E5%A7%86%EF%BC%89%E7%AE%97%E6%B3%95"><span class="toc-number">1.6.1.2.</span> <span class="toc-text">Prim（普里姆）算法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84"><span class="toc-number">1.6.2.</span> <span class="toc-text">最短路径</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84"><span class="toc-number">1.6.3.</span> <span class="toc-text">关键路径</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8B%E4%BB%B6vj%E7%9A%84%E6%9C%80%E6%97%A9%E5%8F%91%E7%94%9F%E6%97%B6%E9%97%B4Ve-j"><span class="toc-number">1.6.3.1.</span> <span class="toc-text">事件vj的最早发生时间Ve(j)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8B%E4%BB%B6vi%E7%9A%84%E6%9C%80%E6%97%A9%E5%8F%91%E7%94%9F%E6%97%B6%E9%97%B4Vl-i"><span class="toc-number">1.6.3.2.</span> <span class="toc-text">事件vi的最早发生时间Vl(i)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B4%BB%E5%8A%A8as%E7%9A%84%E6%9C%80%E6%97%A9%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4e-s"><span class="toc-number">1.6.3.3.</span> <span class="toc-text">活动as的最早开始时间e(s)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B4%BB%E5%8A%A8as%E7%9A%84%E6%9C%80%E6%97%A9%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4l-s"><span class="toc-number">1.6.3.4.</span> <span class="toc-text">活动as的最早开始时间l(s)</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%83%E7%AB%A0-%E6%9F%A5%E6%89%BE"><span class="toc-number">1.7.</span> <span class="toc-text">第七章 查找</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%9D%97%E6%9F%A5%E6%89%BE%EF%BC%88%E7%B4%A2%E5%BC%95%E9%A1%BA%E5%BA%8F%E6%9F%A5%E6%89%BE%EF%BC%89"><span class="toc-number">1.7.1.</span> <span class="toc-text">分块查找（索引顺序查找）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number">1.7.2.</span> <span class="toc-text">平衡二叉树</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#LL%E5%9E%8B%EF%BC%88%E5%8F%B3%E6%97%8B%E8%BD%AC%EF%BC%89"><span class="toc-number">1.7.2.1.</span> <span class="toc-text">LL型（右旋转）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#RR%E5%9E%8B%EF%BC%88%E5%B7%A6%E6%97%8B%E8%BD%AC%EF%BC%89"><span class="toc-number">1.7.2.2.</span> <span class="toc-text">RR型（左旋转）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#LR%E5%9E%8B"><span class="toc-number">1.7.2.3.</span> <span class="toc-text">LR型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#RL%E5%9E%8B"><span class="toc-number">1.7.2.4.</span> <span class="toc-text">RL型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%A3%E5%88%97%E8%A1%A8"><span class="toc-number">1.7.3.</span> <span class="toc-text">散列表</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%84%E7%90%86%E5%86%B2%E7%AA%81"><span class="toc-number">1.7.3.1.</span> <span class="toc-text">处理冲突</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%85%AB%E7%AB%A0-%E6%8E%92%E5%BA%8F"><span class="toc-number">1.8.</span> <span class="toc-text">第八章 排序</span></a></li></ol></li></ol>
                     </div>
                 </span>
             </div>
